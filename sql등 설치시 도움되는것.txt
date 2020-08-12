@@ -1,0 +1,63 @@
+바탕화면에 영어로된 폴더 하나 만들어놓고,
+
+java 8버전 이상
+
+sdeveloper, window 64 두개 		이렇게 총 네개.
+
+2-2에 
+database stage
+component
+4개를 복사하기.
+
+2-1에
+component안에 paste
+
+win 64 1of 2
+setup 실행
+
+
+설치하고 최근 설치된곳에서
+database configuration 누르기. 그래서 설치하기 하고, 이름은 STDB(암거나 가능)
+다음, 위에꺼 끄고, 다음에
+비밀번호
+123456
+계속 계속 다음다음 완료
+설정하고나서, 
+SCOTT를 클릭하지말고, 비밀번호 1234 1234
+
+temp 폴더의 공유권한 설정을 전부다.
+
+net configuration 누르기. 
+다음, 다음, 다음, 다음, 다음, 허용, 다음, local(세번째꺼) 다음 사용자이름STDB(암거나가능)
+TCP, 다음, 호스트 이름- (cmd에서 hostname치고 나오는거 복붙) 다음, 아래꺼클릭, 다음,
+로그인설정에서 비밀번호 1234(암거나) 하고 다음. 다음 완료.
+
+
+자바설치하기.
+두번클릭하기
+nxt nxt, 다음, 완료.
+컴퓨터 속성. 고급. 권한변수. 새로만들기 JAVA_HOME   변수값은 programFile/java/jdk1_8_0
+PATH클릭, 편집    새로만들기 찾아보기, C/programfile/java/jdk1_8_0/bin
+Path맨 위로 올리기.
+
+sql developer 실행, 자바위치 찾으면 됌.
+
+사용자이름은. 무조건 처음에 설정한 사용자이름으로(SCOTT라던지)
+
+도구로 가서 환경설정, 코드편집기 - 글꼴 - 글씨 바꿀수있음.
+
+
+
+VM 설치파일.
+실행
+code-key 필요!
+다음다음다음 취소 다음 완료.
+
+설치하고 확인확인 경로설정. centos 경로설정해주기.
+
+name 암거나(예. first)
+사용자이름 hch
+비밀번호 1234
+다음. name - namenode
+
+
